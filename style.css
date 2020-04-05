@@ -58,3 +58,21 @@ body{
   font-size: 16px;
   cursor: pointer;
 }
+
+.foot{
+  padding-top: 200px;
+  padding-left: 1000px;
+}
+
+.footlink{
+  font-family: "brandon-grotesque", sans-serif;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  color:  rgb(73, 72, 72);
+  font-size: medium;
+}
+
+.footlink:hover{
+  text-decoration: underline;
+}
