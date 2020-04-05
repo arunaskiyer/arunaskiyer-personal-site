@@ -18,18 +18,27 @@ body{
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 50px;
-  background-color:white;
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(65, 64, 64);
+  /* background-color: #fbfbf8; */
+}
+
+.webname{
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(65, 64, 64);
+  font-size: large;
 }
 
 .link{
   font-family: "brandon-grotesque", sans-serif;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
   text-decoration: none;
   color:  rgb(73, 72, 72);
   font-size: medium;
 }
 
 .link:hover{
-  color: #dec7e4;
+  /* color: #a58eaa; */
+  text-decoration: underline;
 }
