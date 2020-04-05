@@ -1,1 +1,35 @@
-.navbar 
+body{
+  background-color: #dec7e4;
+}
+.name{
+  margin-top: 250px;
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(65, 64, 64);
+}
+
+.description{
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(65, 64, 64);
+  font-size: x-large;
+}
+
+.navbar{
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  background-color:white;
+}
+
+.link{
+  font-family: "brandon-grotesque", sans-serif;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-decoration: none;
+  color:  rgb(73, 72, 72);
+  font-size: medium;
+}
+
+.link:hover{
+  color: #dec7e4;
+}
