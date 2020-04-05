@@ -2,7 +2,7 @@ body{
   background-color: #dec7e4;
 }
 .name{
-  margin-top: 250px;
+  margin-top: 200px;
   font-family: "brandon-grotesque", sans-serif;
   color: rgb(65, 64, 64);
 }
@@ -15,8 +15,8 @@ body{
 
 .navbar{
   padding-top: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 50px;
+  padding-right: 25px;
   padding-bottom: 50px;
   font-family: "brandon-grotesque", sans-serif;
   color: rgb(65, 64, 64);
@@ -25,14 +25,24 @@ body{
 
 .webname{
   font-family: "brandon-grotesque", sans-serif;
-  color: rgb(65, 64, 64);
-  font-size: large;
+  text-decoration: none;
+  color:  rgb(73, 72, 72);
+  font-size: 30px;
+}
+
+.link1{
+  padding-left:700px;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-right: 25px;
+  text-decoration: none;
+  color:  rgb(73, 72, 72);
+  font-size: medium;
 }
 
 .link{
   font-family: "brandon-grotesque", sans-serif;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
   text-decoration: none;
   color:  rgb(73, 72, 72);
   font-size: medium;
@@ -40,5 +50,11 @@ body{
 
 .link:hover{
   /* color: #a58eaa; */
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  /* border: 2px  rgb(73, 72, 72); */
+  background-color: rgb(73, 72, 72);
+  color: #dec7e4;
+  padding: 14px 25px 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
 }
