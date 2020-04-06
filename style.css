@@ -1,16 +1,17 @@
 body{
   background-color: #dec7e4;
+  color: rgb(65, 64, 64);
+  font-family: "brandon-grotesque", sans-serif;
 }
 .name{
-  margin-top: 200px;
+  margin-top: 300px;
   font-family: "brandon-grotesque", sans-serif;
-  color: rgb(65, 64, 64);
 }
 
 .description{
   font-family: "brandon-grotesque", sans-serif;
-  color: rgb(65, 64, 64);
   font-size: x-large;
+  margin-bottom: 350px;
 }
 
 .navbar{
@@ -20,6 +21,8 @@ body{
   padding-bottom: 50px;
   font-family: "brandon-grotesque", sans-serif;
   color: rgb(65, 64, 64);
+  position: fixed;
+  top:0;
   /* background-color: #fbfbf8; */
 }
 
@@ -59,9 +62,21 @@ body{
   cursor: pointer;
 }
 
+.headshot{
+  width: 400px;
+  height: 425px;
+}
+
 .foot{
-  padding-top: 200px;
-  padding-left: 1000px;
+  height:24px; 
+  width: 100%; 
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 1000px;
 }
 
 .footlink{
@@ -75,4 +90,14 @@ body{
 
 .footlink:hover{
   text-decoration: underline;
+}
+
+.aboutflex{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutdesc{
+  margin-top:100px;
+  margin-left:50px;
 }
