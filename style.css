@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth; } 
+
 body{
   background-color: #dec7e4;
   color: rgb(65, 64, 64);
@@ -15,15 +17,15 @@ body{
 }
 
 .navbar{
-  padding-top: 50px;
-  padding-left: 50px;
+  padding-top: 40px;
+  padding-left: 125px;
   padding-right: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   font-family: "brandon-grotesque", sans-serif;
   color: rgb(65, 64, 64);
   position: fixed;
   top:0;
-  /* background-color: #fbfbf8; */
+  background-color: #dec7e4;
 }
 
 .webname{
@@ -76,7 +78,9 @@ body{
   background-position: 0% 0%;
   position: fixed;
   bottom: 0pt;
-  left: 1000px;
+  /* left: 1100px; */
+  background-color: #dec7e4;
+  padding-left: 1100px;
 }
 
 .footlink{
@@ -100,4 +104,8 @@ body{
 .aboutdesc{
   margin-top:100px;
   margin-left:50px;
+}
+
+.projectstitle{
+  margin-top:500px;
 }
